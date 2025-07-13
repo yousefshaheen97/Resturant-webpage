@@ -1,0 +1,58 @@
+h1 {
+    color: crimson;
+    text-align: center;
+}
+.picture {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10; 
+    border: 1px solid #ec1010;  
+}
+
+.tablemenu {
+    margin: 0 auto; /* Horizontally centers the table */
+    border: 1px solid #f70d0d; /* Optional: Add a border for visibility */
+    border-collapse: collapse;
+    width: 50%; /* Optional: Adjust the width */
+    text-align: center; /* Center align text in the cells */
+  
+}
+
+.tablemenu th, .tablemenu td {
+    padding: 10px; /* Add some padding for better readability */
+}
+
+
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+    border: 1px solid red;
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 1px;
+
+    
+    
+}
+
+a:hover, a:active {
+    background-color: #f70d0d;
+    color: black;
+
+
+}
+
+header li:nth-child(1){
+    font-size: 18px;
+}
+
+
+header li {
+    list-style: none;
+}
